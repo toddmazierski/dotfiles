@@ -1,0 +1,22 @@
+# -------
+# Display
+# -------
+
+# Show commit IDs in the main view.
+set show-id = true
+
+# --------
+# Keyboard
+# --------
+
+# C: override the built-in binding to include the verbose flag.
+bind generic C !git commit --verbose
+
+# e: override the built-in binding to edit in the background.
+bind generic e !@subl %(file)
+
+# +: amend the last commit.
+bind generic + !git commit --amend
+
+# T: open the difftool for the currently selected file.
+bind generic T !@git difftool %(file)
