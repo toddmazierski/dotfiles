@@ -37,7 +37,7 @@ private
   end
 
   def destination_filename
-    '.' + @source_pathname.basename('.*')
+    '.' + @source_pathname.basename('.*').to_s
   end
 end
 
