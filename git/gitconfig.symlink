@@ -1,0 +1,29 @@
+[user]
+  name = Todd Mazierski
+  email = todd@paperlesspost.com
+
+[core]
+  excludesfile = ~/.gitignore_global
+
+[diff]
+  tool = meld
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = true
+  pager = true
+
+[alias]
+  wdiff = diff --color-words
+
+[push]
+  default = upstream
+
+[init]
+  templatedir = ~/.git_template
+
+[difftool]
+  prompt = false
