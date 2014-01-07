@@ -1,0 +1,14 @@
+{
+  // Documentation: http://www.jshint.com/docs/
+  "browser": true,
+  "globals": {
+    "angular": true,
+    "app": true
+  },
+  "quotmark": "single",
+  "undef": true,
+  "unused": true,
+  "strict": false,
+  "white": true,
+  "indent": 2
+}
