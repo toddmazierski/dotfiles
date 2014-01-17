@@ -3,7 +3,8 @@
   "browser": true,
   "globals": {
     "angular": true,
-    "app": true
+    "app": true,
+    "$": true
   },
   "quotmark": "single",
   "undef": true,
