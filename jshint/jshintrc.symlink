@@ -4,7 +4,8 @@
   "globals": {
     "angular": true,
     "app": true,
-    "$": true
+    "$": true,
+    "Promise": true
   },
   "quotmark": "single",
   "undef": true,
