@@ -2,10 +2,12 @@
   // Documentation: http://www.jshint.com/docs/
   "browser": true,
   "globals": {
-    "angular": true,
+    "angular": false,
     "app": true,
-    "$": true,
-    "Promise": true
+    "$": false,
+    "Promise": false,
+    "PP": true,
+    "Mustache": false
   },
   "quotmark": "single",
   "undef": true,
