@@ -12,5 +12,6 @@
   "unused": true,
   "strict": false,
   "white": true,
-  "indent": 2
+  "indent": 2,
+  "maxerr": 250
 }
