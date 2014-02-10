@@ -7,7 +7,8 @@
     "$": false,
     "Promise": false,
     "PP": true,
-    "Mustache": false
+    "Mustache": false,
+    "_": false
   },
   "quotmark": "single",
   "undef": true,
