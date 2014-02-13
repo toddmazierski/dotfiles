@@ -16,5 +16,5 @@
   "strict": false,
   "white": true,
   "indent": 2,
-  "maxerr": 250
+  "maxerr": 500
 }
