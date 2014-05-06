@@ -1,6 +1,6 @@
 [user]
   name = Todd Mazierski
-  email = todd@paperlesspost.com
+  email = todd@generalassemb.ly
 
 [core]
   excludesfile = ~/.gitignore_global
