@@ -1,20 +1,16 @@
 {
-  // Documentation: http://www.jshint.com/docs/
+  // Options: http://jshint.com/docs/options/
   "browser": true,
   "globals": {
     "angular": false,
     "app": true,
     "$": false,
     "Promise": false,
-    "PP": true,
     "Mustache": false,
     "_": false
   },
-  "quotmark": "single",
   "undef": true,
   "unused": true,
   "strict": false,
-  "white": true,
-  "indent": 2,
   "maxerr": 500
 }

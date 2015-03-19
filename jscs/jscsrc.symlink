@@ -1,0 +1,19 @@
+{
+  // Rules: http://jscs.info/rules.html
+  "validateQuoteMarks": "'",
+
+  "validateIndentation": 2,
+
+  "disallowSpacesInFunctionExpression": {
+      "beforeOpeningRoundBrace": true
+  },
+
+  "requireSpacesInFunctionExpression": {
+      "beforeOpeningCurlyBrace": true
+  },
+
+  "requireSpacesInFunctionDeclaration": {
+      "beforeOpeningRoundBrace": true,
+      "beforeOpeningCurlyBrace": true
+  }
+}
