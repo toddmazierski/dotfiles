@@ -4,16 +4,16 @@
 
   "validateIndentation": 2,
 
-  "disallowSpacesInFunctionExpression": {
-      "beforeOpeningRoundBrace": true
-  },
-
   "requireSpacesInFunctionExpression": {
+      "beforeOpeningRoundBrace": true,
       "beforeOpeningCurlyBrace": true
   },
 
+  "disallowSpacesInFunctionDeclaration": {
+      "beforeOpeningRoundBrace": true
+  },
+
   "requireSpacesInFunctionDeclaration": {
-      "beforeOpeningRoundBrace": true,
       "beforeOpeningCurlyBrace": true
   }
 }
