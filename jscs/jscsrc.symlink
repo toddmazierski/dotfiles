@@ -3,5 +3,6 @@
   "preset": "crockford",
 
   "validateIndentation": 2,
-  "validateQuoteMarks": "'"
+  "validateQuoteMarks": "'",
+  "disallowMultipleVarDecl": false
 }
