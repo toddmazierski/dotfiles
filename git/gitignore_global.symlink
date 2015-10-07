@@ -1,5 +1,9 @@
-# Ignore Mac OS X folder metadata.
+# Ignore Mac OS X folder metadata
 .DS_Store
 
-# Ignore environment files for Foreman.
+# Ignore environment files
 .env
+
+# Ignore Ctags artifacts
+/tags
+/.tags_swap
