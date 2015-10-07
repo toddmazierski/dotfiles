@@ -13,7 +13,7 @@ set show-id = true
 bind generic C !git commit --verbose
 
 # e: override the built-in binding to edit in the background.
-bind generic e !@subl %(file)
+bind generic e !@atom %(file)
 
 # +: amend the last commit.
 bind generic + !git commit --amend
