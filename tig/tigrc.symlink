@@ -3,7 +3,7 @@
 # -------
 
 # Show commit IDs in the main view.
-set show-id = true
+set main-view = line-number:no,interval=5 id date:default author:full commit-title:yes,graph,refs,overflow=no
 
 # --------
 # Keyboard
