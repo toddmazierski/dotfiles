@@ -4,5 +4,5 @@
 
   "validateIndentation": 2,
   "validateQuoteMarks": "'",
-  "disallowMultipleVarDecl": false
+  "requireMultipleVarDecl": false
 }
