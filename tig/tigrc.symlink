@@ -13,7 +13,7 @@ set main-view = line-number:no,interval=5 id date:default author:full commit-tit
 bind generic C !git commit --verbose
 
 # e: override the built-in binding to edit in the background.
-bind generic e !@atom %(file):%(lineno)
+bind generic e !@atom %(directory)/%(file):%(lineno)
 
 # +: amend the last commit.
 bind generic + !git commit --amend
