@@ -16,8 +16,6 @@
   ui = true
   pager = true
 
-[alias]
-  wdiff = diff --color-words
 
 [push]
   default = upstream
