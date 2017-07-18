@@ -14,8 +14,6 @@
 [push]
   default = upstream
 
-[init]
-  templatedir = ~/.git_template
 
 [difftool]
   prompt = false
