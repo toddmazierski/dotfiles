@@ -12,8 +12,7 @@
   ui = auto
 
 [push]
-  default = upstream
-
+  default = simple
 
 [difftool]
   prompt = false
