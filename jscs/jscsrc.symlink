@@ -1,9 +1,0 @@
-// Rules: http://jscs.info/rules.html
-{
-  "preset": "crockford",
-
-  "validateIndentation": 2,
-  "validateQuoteMarks": "'",
-  "requireMultipleVarDecl": false,
-  "requireSemicolons": true
-}
