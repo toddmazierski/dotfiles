@@ -1,6 +1,6 @@
 [user]
   name = Todd Mazierski
-  email = tmazierski@etsy.com
+  email = toddmazierski@users.noreply.github.com
 
 [core]
   excludesfile = ~/.gitignore_global
