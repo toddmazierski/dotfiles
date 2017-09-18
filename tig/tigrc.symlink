@@ -18,5 +18,5 @@ bind generic e !@atom %(directory)/%(file):%(lineno)
 # +: amend the last commit.
 bind generic + !git commit --amend
 
-# T: open the difftool for the currently selected file.
-bind generic T !@git difftool %(file)
+# B: git rebase --interactive
+bind generic B !git rebase --interactive %(commit)
