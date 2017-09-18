@@ -16,3 +16,5 @@
 
 [difftool]
   prompt = false
+[init]
+	templatedir = ~/code/git_template
