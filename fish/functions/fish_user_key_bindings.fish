@@ -3,7 +3,7 @@ function fish_user_key_bindings
   bind --key f1 "eval_and_redisplay_prompt git status"
   bind --key f2 "eval_and_redisplay_prompt git diff"
   bind --key f3 "eval_and_redisplay_prompt git diff --staged"
-  bind --key f4 "eval_and_redisplay_prompt tig status"
+  bind --key f4 "eval_and_redisplay_prompt tig"
   bind --key f6 "eval_and_redisplay_prompt git log"
   bind --key f7 "eval_and_redisplay_prompt git show"
 end
