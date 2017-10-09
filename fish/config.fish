@@ -6,6 +6,7 @@ end
 
 # fundle
 fundle plugin 'edc/bass'
+fundle plugin 'brgmnn/fish-docker-compose'
 fundle init
 
 # rbenv
