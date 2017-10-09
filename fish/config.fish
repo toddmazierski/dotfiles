@@ -12,4 +12,4 @@ fundle init
 source (rbenv init -|psub)
 
 # Default editor
-set --export EDITOR "atom --wait"
+set --export EDITOR "code --wait"
