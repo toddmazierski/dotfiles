@@ -11,5 +11,8 @@ fundle init
 # rbenv
 source (rbenv init -|psub)
 
+# pyenv
+source (pyenv init -|psub)
+
 # Default editor
 set --export EDITOR "code --wait"
