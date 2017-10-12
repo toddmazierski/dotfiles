@@ -11,13 +11,17 @@ fundle init
 
 # rbenv
 if which rbenv > /dev/null
-source (rbenv init -|psub)
+  source (rbenv init -|psub)
 end
 
 # pyenv
 if which pyenv > /dev/null
-source (pyenv init -|psub)
+  source (pyenv init -|psub)
 end
 
 # Default editor
 set --export EDITOR "code --wait"
+
+# Go
+set --export GOPATH ~/code/go
+set PATH ~/code/go/bin $PATH
