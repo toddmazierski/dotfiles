@@ -10,10 +10,14 @@ fundle plugin 'brgmnn/fish-docker-compose'
 fundle init
 
 # rbenv
+if which rbenv > /dev/null
 source (rbenv init -|psub)
+end
 
 # pyenv
+if which pyenv > /dev/null
 source (pyenv init -|psub)
+end
 
 # Default editor
 set --export EDITOR "code --wait"
