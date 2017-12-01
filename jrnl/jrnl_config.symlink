@@ -1,0 +1,13 @@
+{
+  "default_hour": 9, 
+  "linewrap": false, 
+  "encrypt": true, 
+  "default_minute": 0, 
+  "tagsymbols": "@", 
+  "editor": "code --wait", 
+  "timeformat": "%Y-%m-%d %H:%M", 
+  "highlight": true, 
+  "journals": {
+    "default": "~/Dropbox/Journal/journal.txt"
+  }
+}
