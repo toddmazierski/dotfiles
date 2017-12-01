@@ -1,6 +1,6 @@
 {
   "default_hour": 9, 
-  "linewrap": false, 
+  "linewrap": 79, 
   "encrypt": true, 
   "default_minute": 0, 
   "tagsymbols": "@", 
