@@ -4,9 +4,5 @@
 # Ignore environment files
 .env
 
-# Ignore Ctags artifacts
-/tags
-/.tags_swap
-
-# Ignore Atom Remote Sync configuration
-/.remote-sync.json
+# Ignore Solargraph config files
+.solargraph.yml
