@@ -9,7 +9,7 @@
   ui = auto
 
 [push]
-  default = simple
+  default = current
 
 [init]
 	templatedir = ~/code/git_template
