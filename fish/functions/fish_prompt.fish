@@ -22,9 +22,6 @@ set -g __fish_git_prompt_char_upstream_ahead ' ⬆ '
 set -g __fish_git_prompt_char_stateseparator ' '
 
 function fish_prompt
-  set_color yellow
-  printf '%s' (whoami)@(hostname)
-
   set_color green
   printf ' %s' (prompt_pwd)
 
