@@ -6,3 +6,6 @@
 
 # Ignore Solargraph config files
 .solargraph.yml
+
+# Ignore Visual Studio Code config files
+.vscode
