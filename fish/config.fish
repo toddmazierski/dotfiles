@@ -25,5 +25,15 @@ set --export EDITOR "code --wait"
 # Go
 if which go
   set --export GOPATH ~/code/go
-  set PATH ~/code/go/bin $PATH
+  set PATH $PATH ~/code/go/bin
+end
+
+# ImageMagick
+if test -d /usr/local/opt/imagemagick@6
+  set PATH $PATH "/usr/local/opt/imagemagick@6/bin"
+end
+
+# Personal bin scripts
+if test -d $HOME/bin
+  set PATH $PATH $HOME/bin
 end
