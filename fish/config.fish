@@ -23,7 +23,7 @@ end
 set --export EDITOR "code --wait"
 
 # Go
-if which go
+if which go > /dev/null
   set --export GOPATH ~/code/go
   set PATH $PATH ~/code/go/bin
 end
