@@ -25,10 +25,8 @@ function fish_prompt
   set_color green
   printf ' %s' (prompt_pwd)
 
-  if test -e ".git"
-    set_color blue
-    printf ' %s' (__fish_git_prompt '%s')
-  end
+  set_color blue
+  echo -n (__fish_git_prompt ' %s')
 
   set_color normal
   printf '> '
