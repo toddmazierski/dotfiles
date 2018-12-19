@@ -13,10 +13,16 @@ set main-view = line-number:no,interval=5 id date:default author:full commit-tit
 bind generic C !git commit --verbose
 
 # e: override the built-in binding to edit in the background.
-bind generic e !@code --goto %(directory)/%(file):%(lineno)
+bind generic e @code --goto %(directory)/%(file):%(lineno)
 
 # +: amend the last commit.
 bind generic + !git commit --amend
 
 # B: git rebase --interactive
-bind generic B !git rebase --interactive %(commit)
+bind main B !git rebase --interactive %(commit)
+
+# P: copy the path of the currently selected file
+bind generic P @bash -c "echo -n "%(file)" | pbcopy"
+
+# D: delete the currently selected file
+bind generic D ?@trash %(file)
