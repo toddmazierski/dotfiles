@@ -39,3 +39,6 @@ end
 if test -d $HOME/bin
   set PATH $PATH $HOME/bin
 end
+
+# abbreviations
+abbr --add l ls -lG
