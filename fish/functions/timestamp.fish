@@ -1,3 +1,3 @@
 function timestamp
-  echo (date "+%Y-%m-%d_%I:%M:%S_%p")
+  echo (datestamp)_(date "+%I:%M:%S_%p")
 end
