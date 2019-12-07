@@ -21,8 +21,8 @@ bind generic + !git commit --amend
 # B: git rebase --interactive
 bind main B !git rebase --interactive %(commit)
 
-# P: copy the path of the currently selected file
-bind generic P @bash -c "echo -n "%(file)" | pbcopy"
+# S: copy the currently selected SHA
+bind generic S @bash -c "echo -n "%(commit)" | head -c 7 | pbcopy"
 
 # D: delete the currently selected file
 bind generic D ?@trash %(file)
