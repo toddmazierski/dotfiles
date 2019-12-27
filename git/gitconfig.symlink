@@ -1,6 +1,7 @@
 [user]
   name = Todd Mazierski
   email = toddmazierski@users.noreply.github.com
+	signingkey = 7534CF446AEF55CCB64D30B322B5CABB97ECB7B4
 
 [core]
   excludesfile = ~/.gitignore_global
@@ -33,3 +34,5 @@
 [mergetool "meld"]
   trustExitCode = true
   cmd = open -W -a Meld --args --auto-merge \"$PWD/$LOCAL\" \"$PWD/$BASE\" \"$PWD/$REMOTE\" --output=\"$PWD/$MERGED\"
+[commit]
+	gpgsign = true
