@@ -39,3 +39,8 @@ end
 if test -d $HOME/bin
   set PATH $PATH $HOME/bin
 end
+
+# Rust
+if test -d $HOME/.cargo/bin
+  set PATH $PATH $HOME/.cargo/bin
+end
