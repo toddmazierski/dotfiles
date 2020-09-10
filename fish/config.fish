@@ -9,15 +9,15 @@ fundle plugin 'edc/bass'
 fundle plugin 'brgmnn/fish-docker-compose'
 fundle init
 
-if which rbenv > /dev/null
+if which rbenv > /dev/null 2>&1
   source (rbenv init -|psub)
 end
 
-if which pyenv > /dev/null
+if which pyenv > /dev/null 2>&1
   source (pyenv init -|psub)
 end
 
-if which nodenv > /dev/null
+if which nodenv > /dev/null 2>&1
   source (nodenv init -|psub)
 end
 
@@ -25,7 +25,7 @@ end
 set --export EDITOR "code --wait"
 
 # Go
-if which go > /dev/null
+if which go > /dev/null 2>&1; and test -z "$GOPATH"
   set --export GOPATH ~/code/go
   set PATH $PATH ~/code/go/bin
 end
