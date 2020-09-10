@@ -1,13 +1,13 @@
 {
-  "default_hour": 9, 
-  "linewrap": 79, 
-  "encrypt": true, 
-  "default_minute": 0, 
-  "tagsymbols": "@", 
+  "default_hour": 9,
+  "linewrap": 79,
+  "encrypt": true,
+  "default_minute": 0,
+  "tagsymbols": "@",
   "editor": "code --wait --new-window",
-  "timeformat": "%Y-%m-%d %H:%M", 
-  "highlight": true, 
+  "timeformat": "%Y-%m-%d %H:%M",
+  "highlight": true,
   "journals": {
-    "default": "~/Dropbox/Journal/journal.txt"
+    "default": "~/OneDrive/Journal/journal.txt"
   }
 }
